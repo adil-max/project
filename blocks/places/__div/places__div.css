@@ -1,0 +1,8 @@
+.places__div {
+  width: 640px;
+  height: 512px;
+  border: 1px solid red;
+  background-image: url(../../../images/places-forest.jpg);
+  background-size: cover;
+  background-position: center;
+}
