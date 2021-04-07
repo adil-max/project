@@ -1,5 +1,8 @@
 .places__paragraph-title {
+  border: red 1px solid;
+  font-size: 45px;
   font-weight: bold;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin: 0%;
+  margin-left: 80px;
+  margin-top: 75px;
 }

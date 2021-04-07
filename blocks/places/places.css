@@ -2,5 +2,6 @@
   display: grid;
   gap: 0;
   grid-template-columns: repeat(auto-fit, minmax(600px, max-content));
+  grid-template-rows: repeat(3, minmax(300px, 512px));
   border: 0px solid red;
 }
