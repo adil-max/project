@@ -1,6 +1,5 @@
-.header {
+.intro {
   display: flex;
+  border: red 1px solid;
   justify-content: space-between;
-  max-width: 1280px;
-  margin: auto;
 }
