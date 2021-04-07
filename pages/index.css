@@ -1,4 +1,6 @@
 @import url(../vendor/styles/normalize.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/header/header.css);
