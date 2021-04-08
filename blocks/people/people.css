@@ -1,3 +1,9 @@
 .people {
     padding: 154px 77px;
 }
+
+@media (max-width: 600px) {
+    .people {
+        padding: 100px 40px;
+    }
+}
