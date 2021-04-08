@@ -3,3 +3,18 @@
   margin-bottom: auto;
   max-width: 600px;
 }
+@media (max-width: 1279px) {
+  .intro__text {
+    max-width: 480px;
+  }
+}
+@media (max-width: 1023px) {
+  .intro__text {
+    max-width: 390px;
+  }
+}
+@media (max-width: 767px) {
+  .intro__text {
+    max-width: 480px;
+  }
+}

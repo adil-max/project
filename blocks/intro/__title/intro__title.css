@@ -4,3 +4,8 @@
   color: #fecca7;
   font-family: "Raleway", sans-serif;
 }
+@media (max-width: 767px) {
+  .intro__title {
+    font-size: 10px;
+  }
+}

@@ -4,4 +4,10 @@
   border: 1px solid red;
   margin-top: 60px;
   padding-right: 80px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .header__support {
+    padding: 0%;
+  }
 }

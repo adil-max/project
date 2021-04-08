@@ -1,8 +1,27 @@
 .places {
-  margin: 0%;
+  width: 100%;
+  margin: 0 auto 0 auto;
   display: grid;
   gap: 0;
-  grid-template-columns: repeat(auto-fit, minmax(600px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(640px, 1fr));
   grid-template-rows: repeat(3, minmax(300px, 512px));
   border: 0px solid red;
+}
+@media (max-width: 1279px) {
+  .places {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+    grid-template-rows: repeat(3, minmax(300px, 410px));
+  }
+}
+@media (max-width: 1023px) {
+  .places {
+    grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+    grid-template-rows: repeat(3, minmax(300px, 328px));
+  }
+}
+@media (max-width: 767px) {
+  .places {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(6, minmax(300px, 300px));
+  }
 }

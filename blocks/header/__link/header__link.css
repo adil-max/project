@@ -2,8 +2,8 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
-  transition: opacity 0.7s linear;
+  transition: 0.7s linear;
 }
 .header__link:hover {
-  opacity: 0.7;
+  color: #fecca7;
 }

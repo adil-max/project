@@ -1,0 +1,15 @@
+.intro__container {
+  overflow: hidden;
+
+  max-width: 415px;
+}
+@media (max-width: 1279px) {
+  .intro__container {
+    max-width: 336px;
+  }
+}
+@media (max-width: 767px) {
+  .intro__container {
+    max-width: 150px;
+  }
+}

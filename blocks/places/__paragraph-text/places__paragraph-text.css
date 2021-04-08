@@ -1,10 +1,10 @@
 .places__paragraph-text {
   border: 1px solid red;
   padding: 0%;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 400;
   max-width: 442px;
   margin-bottom: 27px;
   margin-left: 80px;
@@ -12,4 +12,26 @@
 }
 .places__paragraph-text:last-child {
   margin-bottom: 0%;
+}
+@media (max-width: 1279px) {
+  .places__paragraph-text {
+    font-size: 14px;
+    max-width: 340px;
+  }
+}
+@media (max-width: 1023px) {
+  .places__paragraph-text {
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    max-width: 270px;
+  }
+}
+@media (max-width: 767px) {
+  .places__paragraph-text {
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    max-width: 270px;
+  }
 }

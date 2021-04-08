@@ -1,7 +1,6 @@
 @import url(../vendor/styles/normalize.css);
-
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/body/body.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
@@ -11,15 +10,18 @@
 @import url(../blocks/header/__support/header__support.css);
 
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
 @import url(../blocks/intro/__image/intro__image.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__container/places__container.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 @import url(../blocks/places/__paragraph-title/places__paragraph-title.css);
 @import url(../blocks/places/__paragraph-text/places__paragraph-text.css);
+@import url(../blocks/places/__box/places__bbox.css);
 
 @import url(../blocks/footer/footer.css);

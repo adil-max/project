@@ -1,9 +1,27 @@
 .places__paragraph-title {
   border: red 1px solid;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   margin: 0%;
   margin-left: 80px;
   margin-top: 75px;
+}
+@media (max-width: 1279px) {
+  .places__paragraph-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .places__paragraph-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .places__paragraph-title {
+    margin-left: 0px;
+  }
 }
