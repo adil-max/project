@@ -5,7 +5,6 @@
   gap: 0;
   grid-template-columns: repeat(auto-fit, minmax(640px, 1fr));
   grid-template-rows: repeat(3, minmax(300px, 512px));
-  border: 0px solid red;
 }
 @media (max-width: 1279px) {
   .places {
