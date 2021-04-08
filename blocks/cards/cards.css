@@ -1,5 +1,20 @@
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(210px, max-content));
-    gap: 0 92px;
+    grid-template-columns: repeat(auto-fit, minmax(190px, max-content));
+    gap: 0 55px;
+    font-family: "Raleway", sans-serif;
+}
+
+@media (max-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(2, minmax(190px, max-content));
+        gap: 65px 55px;
+    }
+}
+
+@media (max-width: 550px) {
+    .cards {
+        grid-template-columns: repeat(1, minmax(190px, max-content));
+        gap: 45px 55px;
+    }
 }

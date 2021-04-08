@@ -1,7 +1,21 @@
-.people__text {    
+.people__text {
     max-width: 465px;
     margin: 0 0 154px 0;
-    font-size: 38px;
-    line-height: 42px;
+    font-size: 40px;
     font-weight: bold;
 }
+
+@media (max-width: 767px) {
+    .people__text {
+        max-width: 390px;
+        margin: 0 0 100px 0;
+        font-size: 28px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .people__text {
+        margin: 0 0 80px 0;
+        font-size: 22px;
+    }
+  }

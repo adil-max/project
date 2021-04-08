@@ -1,0 +1,15 @@
+.body__container {
+    padding: 0 calc((100% - 1100px)/2);
+}
+
+@media (max-width: 1160px) {
+    .body__container {
+        padding: 0 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .body__container {
+        padding: 0 16px;
+    }
+}
