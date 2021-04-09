@@ -3,22 +3,22 @@
   margin: 0%;
   list-style: none;
   display: inline;
-  padding-right: 40px;
-  padding-left: 80px;
+  padding-right: 120px;
+
 }
 .header__link-list:last-child {
   padding-right: 0%;
 }
-@media (max-width: 1023px) {
-  .header__link-list {
-    padding-left: 40px;
-  }
-}
+
 @media (max-width: 767px) {
   .header__link-list {
     display: block;
     text-align: center;
     padding: 0%;
     padding-bottom: 10px;
+  }
+  
+  .header__link-list:last-child {
+    padding-bottom: 0%;
   }
 }

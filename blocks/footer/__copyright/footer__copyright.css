@@ -1,7 +1,18 @@
 .footer__copyright {
     margin: 0;
     padding: 340px calc((100% - 144px)/2);
-    font-size: 30px;
-    line-height: 34px;
+    font-size: 32px;
     font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .footer__copyright {
+        padding: 240px calc((100% - 144px)/2);
+    }
+}
+
+@media (max-width: 640px) {
+    .footer__copyright {
+        padding: 140px calc((100% - 144px)/2);
+    }
 }
