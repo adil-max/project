@@ -10,4 +10,4 @@
 
 # github
 
-https://github.com/adil-max/project
+https://adil-max.github.io/project/index.html
